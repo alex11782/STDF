@@ -1,0 +1,13 @@
+torch
+torchvision
+transformers
+numpy
+scipy
+opencv-python
+Pillow
+tqdm
+trimesh
+pyrender
+matplotlib
+tensorboard
+facenet-pytorch
