@@ -1,12 +1,12 @@
-# STDF: Sketch-Text-Driven Flow for 4D Face Generation
+# STDRF: Sketch-Text Driven Rectified Flow for 4D Face Generation
 
-This repository provides the research implementation of **STDF**, a sketch-text-driven framework for controllable 4D face generation. STDF generates temporally coherent 4D facial mesh sequences from two complementary conditions: a structural sketch for identity and geometry, and a text prompt for expression and motion semantics.
+This repository provides the research implementation of **STDRF**, a sketch-text-driven framework for controllable 4D face generation. STDRF generates temporally coherent 4D facial mesh sequences from two complementary conditions: a structural sketch for identity and geometry, and a text prompt for expression and motion semantics.
 
 The project contains the main method components and data-construction utilities used in our manuscript.
 
 ## Method Overview
 
-STDF formulates sketch-text conditioned 4D face generation as a conditional rectified-flow learning problem. Instead of relying on a multi-stage image/video reconstruction pipeline, STDF directly models the probability transport from Gaussian noise to the 4D facial motion manifold.
+STDRF formulates sketch-text conditioned 4D face generation as a conditional rectified-flow learning problem. Instead of relying on a multi-stage image/video reconstruction pipeline, STDRF directly models the probability transport from Gaussian noise to the 4D facial motion manifold.
 
 The framework consists of three main parts:
 
